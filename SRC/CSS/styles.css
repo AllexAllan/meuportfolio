@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    background: url(../img/codioful.jpeg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.content {
+    background: linear-gradient(135deg, rgba(255,
+                255, 255, 0.6), rgba(255, 255, 255, 0.1));
+    -webkit-backdrop-filter: blur (20px);
+    backdrop-filter: blur (20px);
+    border-radius: 20px;
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.content .left {
+    position: relative;
+    background: linear-gradient(135deg, rgba(255,
+                255, 255, 0.6), rgba(255, 255, 255, 0.1));
+    -webkit-backdrop-filter: blur (20px);
+    backdrop-filter: blur (20px);
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .left .background {
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+    background: url(../img/greg-rosenke.jpeg);
+    background-size: cover;
+}
+
+.content .left .info img {
+    border: solid 5px white;
+    border-radius: 100%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.content .left .info .sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 75px 0 0 0;
+}
+
+.content .left .info .sobre p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 40px;
+    line-height: 30px;
+}
+
+.content .rigth {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    gap: 10px;
+}
+
+.content .rigth .info {
+    position: relative;
+    border-radius: 10px;
+    margin: 20px;
+
+    white-space: nowrap;
+    transition: 1s;
+}
+
+.content .rigth .codFont {
+    background: url(../img/github-wallpaper-scaled.webp)center center no-repeat;
+    background-size: 100%;
+    height: 200px;
+
+
+}
+
+.content .rigth .codFont:hover {
+    background-size: 150%;
+}
+
+.content .rigth .codFont h2 {
+    background: linear-gradient(300deg, #000000, #e20707, #FFB03A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -300px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.content .rigth .projects-content h2 {
+    background: linear-gradient(300deg, #ffffff, #e20707, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: -17px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.content .rigth .projects-content2 h2 {
+    background: linear-gradient(300deg, #ffffff, #e20707, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: -8px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.content .rigth .projects .projects-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.content .rigth .projects .projects-content a {
+    border: solid 1px;
+    border-radius: 10px;
+    height: 150px;
+    width: 40%;
+
+}
+
+.content .rigth .projects .projects-content2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.content .rigth .projects .projects-content2 a {
+    border: solid 1px;
+    border-radius: 10px;
+    height: 100px;
+    width: 40%;
+}
+
+.content .rigth .projects .projects-content .Landing {
+    background: url(../img/Landing.png);
+    background-size: 100%;
+    transition: 1s;
+}
+
+.content .rigth .projects .projects-content .prestativ {
+    background: url(../img/prestativ.png);
+    background-size: 100%;
+    transition: 1s;
+}
+
+.content .rigth .projects .projects-content .huddle {
+    background: url(../img/huddle.png);
+    background-size: 100%;
+    transition: 1s;
+}
+
+.content .rigth .projects .projects-content .Landing:hover {
+    background-size: 130%;
+}
+
+.content .rigth .projects .projects-content .prestativ:hover {
+    background-size: 130%;
+}
+
+.content .rigth .projects .projects-content .huddle:hover {
+    background-size: 130%;
+}
+
+.content .rigth .projects .projects-content2 .email {
+    background: url(../img/e-mail.jpeg)center center no-repeat;
+    background-size: 150%;
+    transition: 1s;
+}
+
+.content .rigth .projects .projects-content2 .instagram-pessoal {
+    background: url(../img/instagram-pessoal.jpeg) center center no-repeat;
+    background-size: 130%;
+    transition: 1s;
+}
+
+.content .rigth .projects .projects-content2 .instagram-barista {
+    background: url(../img/instagram-barista.jpeg) center center no-repeat;
+    background-size: 130%;
+    transition: 1s;
+}
+
+.content .rigth .projects .projects-content2 .email:hover {
+    background-size: 170%;
+}
+
+.content .rigth .projects .projects-content2 .instagram-pessoal:hover {
+    background-size: 150%;
+}
+
+.content .rigth .projects .projects-content2 .instagram-barista:hover {
+    background-size: 150%;
+}
+
+.content .rigth .projects .projects-content2 .instagram-barista p {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0)
+}
+
+.content .rigth .projects .projects-content2 .instagram-pessoal p {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0)
+}
+
+.content .rigth .projects .projects-content2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.content .rigth .projects .projects-content2 a {
+    border: solid 1px;
+    border-radius: 10px;
+    height: 100px;
+    width: 40%;
+}
