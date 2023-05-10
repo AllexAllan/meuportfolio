@@ -135,7 +135,7 @@ body {
 }
 
 .content .rigth .projects .projects-content .agency {
-    background: url(../img/Agency.png) center center no-repeat #90EE90;
+    background: url(../img/agency.png) center center no-repeat #90EE90;
     background-size: 150%;
     transition: 1s;
 }
